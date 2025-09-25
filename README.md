@@ -1,6 +1,4 @@
-# DMV-akte-dashboard-demo
-
-# DMV AKTE Dashboard — FAST Analysis (Portfolio Demo)
+# DMV-akte-dashboard-demo — FAST Analysis (Portfolio Demo)
 
 This repository showcases my Tableau dashboard for DMV AKTE exam analysis.  
 All assets are **anonymized**: table names are generic, identifiers are **hashed**, and screenshots mask PII.
