@@ -35,7 +35,9 @@ All assets are **anonymized**: table names are generic, identifiers are **hashed
 6. (Optional) **Enrich** with non-PII DL attributes via a LEFT JOIN.
 
 ## Tech Stack
-- SQL (Snowflake-like dialect), Tableau for visualization.
+- SQL (Snowflake-like dialect),
+- Tableau for visualization.
+- 
 ## Project Highlights
 - Built a parameter-driven Tableau dashboard for DMV exam analysis.
 - Designed SQL query with CTEs for clean modular logic (sessions, exams, audits).
