@@ -1,4 +1,4 @@
-# DMV-akte-dashboard-demo — FAST Analysis (Portfolio Demo)
+# DMV-Akte-Dashboard-Demo — FAST Analysis (Portfolio Demo)
 
 This repository showcases my Tableau dashboard for DMV AKTE exam analysis.  
 All assets are **anonymized**: table names are generic, identifiers are **hashed**, and screenshots mask PII.
@@ -37,7 +37,7 @@ All assets are **anonymized**: table names are generic, identifiers are **hashed
 ## Tech Stack
 - SQL (Snowflake-like dialect),
 - Tableau for visualization.
-- 
+
 ## Project Highlights
 - Built a parameter-driven Tableau dashboard for DMV exam analysis.
 - Designed SQL query with CTEs for clean modular logic (sessions, exams, audits).
