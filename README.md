@@ -14,6 +14,11 @@ All assets are **anonymized**: table names are generic, identifiers are **hashed
 ![Dashboard Filters](dashboard-filters.png)  
 *Available filters: date range, office, exam type, language, CDL flag, and result.*
 
+### Interactivity
+- Fully filterable by Start/End Date, Exam Name, Office, Language, CDL flag, and Result.
+- Click any chart segment (e.g., exam type, office bar) to drill down into the detailed exam-level table.
+- Tooltips provide additional context on hover (e.g., state averages, record counts).
+
 ## What the Dashboard Shows
 - Average exam duration by exam type with state-average reference lines
 - Filters/ Parameters for Start/End date, Office, Exam Name, Language, CDL flag, and Result
@@ -43,14 +48,22 @@ All assets are **anonymized**: table names are generic, identifiers are **hashed
 - Applied anonymization: hashed driver IDs, masked IP addresses, removed PII.
 - Delivered interactive visualizations with state-average KPIs and detailed record tables.
 
-- ## Additional Dashboard: OL AKTE Exam Dashboard
 
-This version of the dashboard focuses on **office-level exam distribution and outcomes**.  
-It reuses the same SQL backbone but highlights different business questions:
 
-- Exam distribution by exam type (donut chart)  for OL Exams only
+
+## Additional Dashboard: OL AKTE Exam Dashboard
+
+This version of the dashboard focuses on **office-level exam distribution and outcomes.**
+
+- Exam distribution by exam type (donut chart)  
 - Pass/Fail outcomes by exam type (stacked bar)  
 - Office-level completion metrics with pass/fail breakdowns  
 - Record-level detail including exam duration, % correct, and outcomes  
 
 ![ol-akte-dashboard](ol-akte-dashboard.png)
+
+### Interactivity
+- Fully filterable by date range, exam type, office, result, and workstation IP.  
+- Click-to-drilldown: selecting a bar or chart segment filters the detailed table automatically.  
+- Row-level table is dynamically tied to filters, showing exam-by-exam breakdowns.  
+
