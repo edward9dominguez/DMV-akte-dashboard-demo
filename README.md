@@ -6,12 +6,14 @@ All assets are **anonymized**: table names are generic, identifiers are **hashed
 ## What’s Included
 - `docs/screenshots/` — static screenshots of the dashboard
 - `sql/demo_query.sql` — the query powering the dashboard (scrubbed, documented)
-- 
-- ## Dashboard Preview
-![Dashboard Overview](dashboard-overview.png)
+  
+### Dashboard Overview
+![Dashboard Overview](dashboard-overview.png)  
+*Main dashboard view showing exam types, durations, and state averages.*
 
-### Parameters/Filters
-![Parameters/Filters](dashboard-filters.png)
+### Parameters & Filters
+![Dashboard Filters](dashboard-filters.png)  
+*Available filters: date range, office, exam type, language, CDL flag, and result.*
 
 ## What the Dashboard Shows
 - Average exam duration by exam type with state-average reference lines
@@ -34,3 +36,8 @@ All assets are **anonymized**: table names are generic, identifiers are **hashed
 
 ## Tech Stack
 - SQL (Snowflake-like dialect), Tableau for visualization.
+## Project Highlights
+- Built a parameter-driven Tableau dashboard for DMV exam analysis.
+- Designed SQL query with CTEs for clean modular logic (sessions, exams, audits).
+- Applied anonymization: hashed driver IDs, masked IP addresses, removed PII.
+- Delivered interactive visualizations with state-average KPIs and detailed record tables.
