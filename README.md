@@ -10,8 +10,8 @@ All assets are **anonymized**: table names are generic, identifiers are **hashed
 - ## Dashboard Preview
 ![Dashboard Overview](dashboard-overview.png)
 
-### Detail Table
-![Detail Table](dashboard-filters.png)
+### Parameters/Filters
+![Parameters/Filters](dashboard-filters.png)
 
 ## What the Dashboard Shows
 - Average exam duration by exam type with state-average reference lines
