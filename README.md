@@ -6,12 +6,12 @@ All assets are **anonymized**: table names are generic, identifiers are **hashed
 ## What’s Included
 - `docs/screenshots/` — static screenshots of the dashboard
 - `sql/demo_query.sql` — the query powering the dashboard (scrubbed, documented)
+- 
 - ## Dashboard Preview
-![Dashboard Overview](docs/screenshots/dashboard-overview.png)
+![Dashboard Overview](dashboard-overview.png)
 
 ### Detail Table
 ![Detail Table](docs/screenshots/detail-table.png)
-
 
 ## What the Dashboard Shows
 - Average exam duration by exam type with state-average reference lines
