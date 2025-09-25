@@ -53,5 +53,5 @@ It reuses the same SQL backbone but highlights different business questions:
 - Office-level completion metrics with pass/fail breakdowns  
 - Record-level detail including exam duration, % correct, and outcomes  
 
-![OL AKTE Dashboard](docs/screenshots/ol-dashboard/ol-akte-dashboard.png)
+![dmv-exam-dashboard](docs/screenshots/ol-dashboard/ol-akte-dashboard.png)
 
