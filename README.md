@@ -4,9 +4,8 @@ This repository showcases my Tableau dashboard for DMV AKTE exam analysis.
 All assets are **anonymized**: table names are generic, identifiers are **hashed**, and screenshots mask PII.
 
 ## What’s Included
-- `docs/screenshots/` — static screenshots of the dashboard
 - `sql/demo_query.sql` — the query powering the dashboard (scrubbed, documented)
-  
+- (See Below) — static screenshots of the dashboard
 ### Dashboard Overview
 ![Dashboard Overview](dashboard-overview.png)  
 *Main dashboard view showing exam types, durations, and state averages.*
