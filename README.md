@@ -42,3 +42,16 @@ All assets are **anonymized**: table names are generic, identifiers are **hashed
 - Designed SQL query with CTEs for clean modular logic (sessions, exams, audits).
 - Applied anonymization: hashed driver IDs, masked IP addresses, removed PII.
 - Delivered interactive visualizations with state-average KPIs and detailed record tables.
+
+- ## Additional Dashboard: OL AKTE Exam Dashboard
+
+This version of the dashboard focuses on **office-level exam distribution and outcomes**.  
+It reuses the same SQL backbone but highlights different business questions:
+
+- Exam distribution by exam type (donut chart)  for OL Exams only
+- Pass/Fail outcomes by exam type (stacked bar)  
+- Office-level completion metrics with pass/fail breakdowns  
+- Record-level detail including exam duration, % correct, and outcomes  
+
+![OL AKTE Dashboard](docs/screenshots/ol-dashboard/ol-akte-dashboard.png)
+
